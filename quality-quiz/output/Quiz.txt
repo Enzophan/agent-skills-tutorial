@@ -1,0 +1,59 @@
+1. What is the primary goal of agile testing?
+   1) Find bugs early
+   2) Validate requirements
+   3) Ensure continuous feedback
+   4) All of the above
+Answer: All of the above
+Explanation: Agile testing aims for early defect detection and continuous feedback throughout development.
+
+2. In agile, test automation should be introduced only at the end of the sprint.
+   (True/False)
+Answer: False
+Explanation: Automation is built incrementally throughout the sprint.
+
+3. Which of the following is NOT a characteristic of manual testing?
+   1) Exploratory
+   2) Requires no code
+   3) Fast execution
+   4) Human judgment
+Answer: Fast execution
+Explanation: Manual testing relies on human judgment and is typically slower than automated tests.
+
+4. Define regression testing.
+Answer: Running previously passed tests to ensure new changes haven't broken existing functionality.
+Explanation: Regression testing verifies that recent code changes do not adversely affect existing features.
+
+5. Which tool is commonly used for UI automation in web applications?
+   1) Selenium
+   2) Docker
+   3) Git
+   4) Jenkins
+Answer: Selenium
+Explanation: Selenium drives browsers to automate UI interactions.
+
+6. Automated tests require no maintenance once written.
+   (True/False)
+Answer: False
+Explanation: Test scripts need updates as the application evolves.
+
+7. Explain the concept of flaky tests and how to mitigate them.
+Answer: Flaky tests produce intermittent failures due to timing, environment, or dependencies; mitigation includes isolating resources, adding retries, or stabilizing test data.
+Explanation: Flakiness reduces confidence; proper design and environment control help.
+
+8. What is the main advantage of manual testing?
+   1) Speed
+   2) Automation
+   3) Human intuition
+   4) Low cost
+Answer: Human intuition
+Explanation: Manual testing allows exploratory testing and nuanced human judgment.
+
+9. Manual testing can be fully automated with scripts.
+   (True/False)
+Answer: False
+Explanation: Certain exploratory and usability aspects require human testers.
+
+10. Describe a risk‑based approach to manual test case selection.
+Answer: Prioritize test cases that cover high‑impact or high‑probability failure areas, reducing effort while maximizing risk coverage.
+Explanation: Risk‑based testing focuses resources where defects would be most costly.
+
