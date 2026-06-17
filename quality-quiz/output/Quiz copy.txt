@@ -1,0 +1,56 @@
+1️⃣ *Describe a risk‑based approach to manual test case selection.*
+**Answer:** Prioritize test cases that cover high‑impact or high‑probability failure areas, reducing effort while maximizing risk coverage.
+**Explanation:** Risk‑based testing focuses resources where defects would be most costly.
+
+2️⃣ *Define regression testing.*
+**Answer:** Running previously passed tests to ensure new changes haven't broken existing functionality.
+**Explanation:** Regression testing verifies that recent code changes do not adversely affect existing features.
+
+3️⃣ *What is the primary goal of agile testing?*
+   - A) Find bugs early
+   - B) Validate requirements
+   - C) Ensure continuous feedback
+   - D) All of the above
+**Answer:** All of the above
+**Explanation:** Agile testing aims for early defect detection and continuous feedback throughout development.
+
+4️⃣ *Which tool is commonly used for UI automation in web applications?*
+   - A) Selenium
+   - B) Docker
+   - C) Git
+   - D) Jenkins
+**Answer:** Selenium
+**Explanation:** Selenium drives browsers to automate UI interactions.
+
+5️⃣ *What is the main advantage of manual testing?*
+   - A) Speed
+   - B) Automation
+   - C) Human intuition
+   - D) Low cost
+**Answer:** Human intuition
+**Explanation:** Manual testing allows exploratory testing and nuanced human judgment.
+
+6️⃣ *In agile, test automation should be introduced only at the end of the sprint.*
+**Answer:** False
+**Explanation:** Automation is built incrementally throughout the sprint.
+
+7️⃣ *Automated tests require no maintenance once written.*
+**Answer:** False
+**Explanation:** Test scripts need updates as the application evolves.
+
+8️⃣ *Which of the following is NOT a characteristic of manual testing?*
+   - A) Exploratory
+   - B) Requires no code
+   - C) Fast execution
+   - D) Human judgment
+**Answer:** Fast execution
+**Explanation:** Manual testing relies on human judgment and is typically slower than automated tests.
+
+9️⃣ *Manual testing can be fully automated with scripts.*
+**Answer:** False
+**Explanation:** Certain exploratory and usability aspects require human testers.
+
+10️⃣ *Explain the concept of flaky tests and how to mitigate them.*
+**Answer:** Flaky tests produce intermittent failures due to timing, environment, or dependencies; mitigation includes isolating resources, adding retries, or stabilizing test data.
+**Explanation:** Flakiness reduces confidence; proper design and environment control help.
+
