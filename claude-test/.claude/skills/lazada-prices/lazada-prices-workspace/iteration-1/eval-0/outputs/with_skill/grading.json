@@ -1,0 +1,40 @@
+{
+  "expectations": [
+    {
+      "text": "Lists prices in VND (\u20ab)",
+      "passed": true,
+      "evidence": "Found \u20ab or VND in output"
+    },
+    {
+      "text": "Includes product names",
+      "passed": true,
+      "evidence": "Output contains product names"
+    },
+    {
+      "text": "Includes seller/location information",
+      "passed": true,
+      "evidence": "Found location info"
+    },
+    {
+      "text": "Includes product links to Lazada.vn",
+      "passed": false,
+      "evidence": "No links found"
+    },
+    {
+      "text": "Contains Samsung Galaxy S24 results",
+      "passed": true,
+      "evidence": "Found Samsung Galaxy S24"
+    },
+    {
+      "text": "Shows discount information when available",
+      "passed": true,
+      "evidence": "Found discount info"
+    }
+  ],
+  "summary": {
+    "passed": 5,
+    "failed": 1,
+    "total": 6,
+    "pass_rate": 0.83
+  }
+}

@@ -1,0 +1,22 @@
+- id: 1
+  topic: Automation Testing
+  difficulty: easy
+  format: multiple_choice
+  question: "Which tool is commonly used for UI automation in web applications?"
+  options: ["Selenium","Docker","Git","Jenkins"]
+  answer: "Selenium"
+  explanation: "Selenium drives browsers to automate UI interactions."
+- id: 2
+  topic: Automation Testing
+  difficulty: medium
+  format: true_false
+  question: "Automated tests require no maintenance once written."
+  answer: false
+  explanation: "Test scripts need updates as the application evolves."
+- id: 3
+  topic: Automation Testing
+  difficulty: hard
+  format: short_answer
+  question: "Explain the concept of flaky tests and how to mitigate them."
+  answer: "Flaky tests produce intermittent failures due to timing, environment, or dependencies; mitigation includes isolating resources, adding retries, or stabilizing test data."
+  explanation: "Flakiness reduces confidence; proper design and environment control help."
