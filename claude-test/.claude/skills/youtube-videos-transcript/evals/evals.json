@@ -1,0 +1,41 @@
+{
+  "skill_name": "youtube-videos-transcript",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Get the transcript from this YouTube video: https://www.youtube.com/watch?v=jNQXAC9IVRw and save it to the output folder as a .txt file.",
+      "expected_output": "A .txt file in the output folder containing the English transcript of the video, named something like Me_at_the_zoo_<timestamp>.txt",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Download the transcript from https://youtu.be/dQw4w9WgXcQ and write it to a text file in the output directory.",
+      "expected_output": "A .txt file in the output folder containing the English transcript of the video, named something like Rick_Astley_-_Never_Gonna_Give_You_Up_<timestamp>.txt",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Try to get the transcript from this fake URL https://www.youtube.com/watch?v=FAKE1234567 and save it. It should show an error because the video doesn't exist.",
+      "expected_output": "An error message explaining that the transcript could not be retrieved (video not found or no transcript available). No file should be created.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Validate this URL: https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "expected_output": "Confirmation that the URL is valid and extraction of the video ID: dQw4w9WgXcQ",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Check if this is a valid YouTube URL: not-a-youtube-url",
+      "expected_output": "Error message indicating the URL is invalid with examples of supported formats",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Get transcript with detailed output info: https://www.youtube.com/watch?v=jNQXAC9IVRw",
+      "expected_output": "Transcript saved confirmation with file path, size, line count, and word count",
+      "files": []
+    }
+  ]
+}
