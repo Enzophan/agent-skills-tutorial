@@ -1,0 +1,35 @@
+{
+  "skill_name": "quality-quiz",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Give me a 5‑question multiple‑choice quiz on Agile Testing with explanations.",
+      "expected_output": "Markdown list of 5 multiple-choice questions about Agile Testing, each with answer and explanation"
+    },
+    {
+      "id": 2,
+      "prompt": "Create a short true/false quiz (3 questions) on Manual Testing.",
+      "expected_output": "Markdown list of 3 true/false questions about Manual Testing"
+    },
+    {
+      "id": 3,
+      "prompt": "I need a JSON‑formatted quiz on Automation Testing, 4 questions, easy level.",
+      "expected_output": "JSON object with topic Automation Testing and up to 4 easy questions"
+    },
+    {
+      "id": 4,
+      "prompt": "Quiz me on software development processes, hard difficulty, 2 short answer questions.",
+      "expected_output": "2 hard short-answer questions about Software Development Processes"
+    },
+    {
+      "id": 5,
+      "prompt": "Test my knowledge of software quality with a mixed difficulty quiz.",
+      "expected_output": "5-question quiz on Software Quality (default: multiple-choice, mixed difficulty)"
+    },
+    {
+      "id": 6,
+      "prompt": "I'm preparing for a QA interview, give me some practice questions.",
+      "expected_output": "A quiz on software quality or testing topics, 5 questions default"
+    }
+  ]
+}

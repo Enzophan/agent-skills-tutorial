@@ -1,0 +1,38 @@
+- id: 1
+  topic: Software Quality
+  difficulty: easy
+  format: multiple_choice
+  question: "What does QA stand for in software development?"
+  options: ["Quality Assurance","Quick Access","Quality Analysis","Query Algorithm"]
+  answer: "Quality Assurance"
+  explanation: "QA refers to the systematic process of ensuring software quality through planned activities."
+- id: 2
+  topic: Software Quality
+  difficulty: easy
+  format: true_false
+  question: "Code reviews are considered a quality assurance activity."
+  answer: true
+  explanation: "Code reviews help catch defects early and improve code quality before deployment."
+- id: 3
+  topic: Software Quality
+  difficulty: medium
+  format: multiple_choice
+  question: "Which ISO standard is commonly associated with software quality?"
+  options: ["ISO 9001","ISO 14001","ISO 27001","ISO 50001"]
+  answer: "ISO 9001"
+  explanation: "ISO 9001 sets criteria for a quality management system applicable to software organizations."
+- id: 4
+  topic: Software Quality
+  difficulty: medium
+  format: short_answer
+  question: "What is the difference between verification and validation?"
+  answer: "Verification checks if the product is built correctly (meets specifications), while validation checks if the right product is built (meets user needs)."
+  explanation: "Verification is about process compliance; validation is about customer satisfaction."
+- id: 5
+  topic: Software Quality
+  difficulty: hard
+  format: multiple_choice
+  question: "Which technique measures the percentage of code exercised by tests?"
+  options: ["Code coverage","Cyclomatic complexity","Static analysis","Performance profiling"]
+  answer: "Code coverage"
+  explanation: "Code coverage quantifies which lines, branches, or paths are executed during testing."

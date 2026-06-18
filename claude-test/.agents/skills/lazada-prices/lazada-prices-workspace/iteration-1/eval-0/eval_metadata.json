@@ -1,0 +1,13 @@
+{
+  "eval_id": 0,
+  "eval_name": "samsung-galaxy-s24",
+  "prompt": "Compare prices for Samsung Galaxy S24 on Lazada Vietnam",
+  "assertions": [
+    "Lists prices in VND (₫)",
+    "Includes product names",
+    "Includes seller/location information",
+    "Includes product links to Lazada.vn",
+    "Contains Samsung Galaxy S24 results",
+    "Shows discount information when available"
+  ]
+}
