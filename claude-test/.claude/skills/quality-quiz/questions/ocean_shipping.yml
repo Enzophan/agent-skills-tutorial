@@ -1,0 +1,69 @@
+- id: 1
+  topic: Ocean Shipping
+  difficulty: easy
+  format: single_choice
+  question: "What is a 'Bill of Lading' (B/L) in ocean shipping?"
+  options: ["A port fee invoice", "A legal document issued by the carrier that serves as a receipt of goods, evidence of the contract of carriage, and a document of title", "A customs declaration form only", "A vessel maintenance log"]
+  answer: "A legal document issued by the carrier that serves as a receipt of goods, evidence of the contract of carriage, and a document of title"
+  explanation: "The Bill of Lading is one of the most important trade documents: it proves goods were received, defines carrier liability, and acts as a negotiable title to the cargo."
+
+- id: 2
+  topic: Ocean Shipping
+  difficulty: easy
+  format: true_false
+  question: "An FOB (Free on Board) Incoterm means the seller retains all risk and cost until the goods are loaded on board the vessel."
+  answer: false
+  explanation: "Under FOB, risk and cost transfer from seller to buyer once the goods are loaded on board the vessel at the named port of shipment. The original seller keeps risk until that point."
+
+- id: 3
+  topic: Ocean Shipping
+  difficulty: medium
+  format: multi_select
+  question: "Which of the following are common container types used in ocean shipping? (Select all that apply)"
+  options: ["20' Standard (TEU)", "40' Standard (FEU)", "40' High Cube (HC)", "Bulk grain wagon (non-containerized)", "Reefer (refrigerated container)"]
+  answer: ["20' Standard (TEU)", "40' Standard (FEU)", "40' High Cube (HC)", "Reefer (refrigerated container)"]
+  explanation: "TEU, FEU, High Cube, and Reefer are standard ISO container types. Bulk grain wagons are rail cars used in land transport, not ISO ocean containers."
+
+- id: 4
+  topic: Ocean Shipping
+  difficulty: medium
+  format: single_choice
+  question: "What is a TEU?"
+  options: ["A vessel speed metric (Twenty Engine Units)", "A Twenty-foot Equivalent Unit — the standard measure of container capacity", "A customs tariff code for electronics", "A type of port equipment used to load containers"]
+  answer: "A Twenty-foot Equivalent Unit — the standard measure of container capacity"
+  explanation: "TEU is based on a 20-foot container; a 40-foot container counts as 2 TEU. Vessel and port capacity are commonly expressed in TEU."
+
+- id: 5
+  topic: Ocean Shipping
+  difficulty: medium
+  format: true_false
+  question: "A 'demurrage' charge applies when a container stays at the port or terminal beyond the allowed free time."
+  answer: true
+  explanation: "Demurrage is charged by the carrier/terminal for keeping containers at the port past free time. The related term 'detention' applies when the container is held outside the port."
+
+- id: 6
+  topic: Ocean Shipping
+  difficulty: hard
+  format: multi_select
+  question: "Which of the following are key parties typically involved in an international ocean shipment? (Select all that apply)"
+  options: ["Shipper (consignor)", "Consignee", "Carrier (vessel operator)", "Customs broker", "Freight forwarder"]
+  answer: ["Shipper (consignor)", "Consignee", "Carrier (vessel operator)", "Customs broker", "Freight forwarder"]
+  explanation: "All five are standard parties: the shipper sends the goods, the consignee receives them, the carrier transports them by sea, the customs broker handles clearance, and the freight forwarder coordinates the logistics end-to-end."
+
+- id: 7
+  topic: Ocean Shipping
+  difficulty: medium
+  format: single_choice
+  question: "What does the Incoterm 'CIF' (Cost, Insurance, and Freight) require the seller to do?"
+  options: ["Deliver goods to the buyer's warehouse", "Pay for cost, insurance, and freight to bring goods to the named port of destination — with risk transferring once goods are loaded on the vessel at origin", "Pay only for inland transport", "Cover all costs up to final delivery to the buyer's door"]
+  answer: "Pay for cost, insurance, and freight to bring goods to the named port of destination — with risk transferring once goods are loaded on the vessel at origin"
+  explanation: "Under CIF, the seller pays freight and insurance to the destination port, but risk transfers to the buyer at origin port loading. It is a 'shipment' contract, not a 'destination' contract like DAP."
+
+- id: 8
+  topic: Ocean Shipping
+  difficulty: hard
+  format: multi_select
+  question: "Which of the following can cause unexpected delays in ocean shipments? (Select all that apply)"
+  options: ["Port congestion and labor strikes", "Customs holds and documentation errors", "Vessel roll-overs (cargo left behind at port)", "Carrier blank sailings (canceled voyages)", "Vessel speed relative to the speed of light"]
+  answer: ["Port congestion and labor strikes", "Customs holds and documentation errors", "Vessel roll-overs (cargo left behind at port)", "Carrier blank sailings (canceled voyages)"]
+  explanation: "All four are well-documented sources of ocean-shipping delays. Vessel speed relative to the speed of light is not a logistics concept."

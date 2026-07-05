@@ -1,16 +1,16 @@
 ---
 name: quality-quiz
 description: |
-  Provides a list of questions and answers about Software Quality Processes, Software Development Processes, Agile Testing, Agile Methodology, Agile QA, Manual Testing, Automation Testing, Security Testing, Performance Testing, API Testing, DevOps & CI/CD, Emerging Technologies, and related topics. Use this skill whenever a user asks for a quiz, test questions, or practice items on software quality or development processes—whether they request a specific number of questions, a particular difficulty level, or a format (single‑choice, multi‑select, or true/false). Even if the request is vague (e.g., "test my knowledge of testing"), default to a concise 5‑question quiz covering the requested domain. Also trigger when users mention studying for ISTQB, preparing for QA interviews, or reviewing software testing concepts—this skill is the go-to for any software quality or testing knowledge check, not just explicit "quiz" requests.
+  Provides a list of questions and answers about Software Quality Processes, Software Development Processes, Agile Testing, Agile Methodology, Agile QA, Manual Testing, Automation Testing, Playwright, Cucumber IO, Finding Dynamic Elements on a Website, Security Testing, Performance Testing, API Testing, DevOps & CI/CD, Emerging Technologies, Business Knowledge in the Ocean Shipping Industry, and related topics. Use this skill whenever a user asks for a quiz, test questions, or practice items on software quality, automation tooling, BDD, web-element handling, or ocean shipping business knowledge—whether they request a specific number of questions, a particular difficulty level, or a format (single‑choice, multi‑select, or true/false). Even if the request is vague (e.g., "test my knowledge of Playwright", "quiz me on shipping"), default to a concise 5‑question quiz covering the requested domain. Also trigger when users mention studying for ISTQB, preparing for QA interviews, reviewing Playwright/Cucumber patterns, locating dynamic web elements, or learning about Incoterms, Bills of Lading, containers, or shipping operations—this skill is the go‑to for any software quality, automation, or ocean‑shipping knowledge check, not just explicit "quiz" requests.
 
 metadata:
-  version: "2.0"
-  last_updated: "2026-07-04"
+  version: "2.1"
+  last_updated: "2026-07-06"
 ---
 
 ## Overview
-This skill generates practice quizzes for learning and assessing knowledge of software quality, testing, and development concepts. It supports:
-- **Topic** — `Agile Testing`, `Agile QA`, `Manual Testing`, `Automation Testing`, `Security Testing`, `Performance Testing`, `API Testing`, `DevOps & CI/CD`, `Software Quality`, `Software Development Processes`, `Emerging Technologies` (default: all topics, mixed)
+This skill generates practice quizzes for learning and assessing knowledge of software quality, testing, automation, development concepts, and select business domains. It supports:
+- **Topic** — `Agile Testing`, `Agile QA`, `Manual Testing`, `Automation Testing`, `Playwright`, `Cucumber IO`, `Dynamic Elements`, `Security Testing`, `Performance Testing`, `API Testing`, `DevOps & CI/CD`, `Software Quality`, `Software Development Processes`, `Emerging Technologies`, `Ocean Shipping` (default: all topics, mixed)
 - **Count** — 1–20 questions (default: 5)
 - **Difficulty** — `easy`, `medium`, `hard` (default: `medium`, mixed across levels when not specified)
 - **Format** — three required formats: `single_choice` (one correct option), `multi_select` (multiple correct options), `true_false` (default: mixed across all three)
@@ -62,6 +62,12 @@ When the skill is invoked, follow these steps:
    - If no count is given, default to **5**.
    - If no difficulty is given, default to **mixed** (pull from all levels).
    - If the user is vague (e.g., "quiz me on testing"), pick a topic and give them a 5‑question quiz mixing the three required formats.
+
+   **Topic inference hints** — map common user phrasings to topics:
+   - "Playwright", "playwright testing", "playwright locators", "playwright auto-wait", "trace viewer", "codegen" → **Playwright**
+   - "Cucumber", "BDD", "Gherkin", "Given/When/Then", "step definition", "feature file" → **Cucumber IO**
+   - "dynamic element", "dynamic locator", "find element on a website", "locator strategy", "xpath", "css selector", "stable selector", "data-testid", "shadow DOM" → **Dynamic Elements**
+   - "shipping", "ocean freight", "container shipping", "B/L", "Bill of Lading", "Incoterms", "FOB", "CIF", "TEU", "reefer", "demurrage", "vessel", "port", "customs", "freight forwarder" → **Ocean Shipping**
 
 2. **Select questions** — questions live in the `questions/` directory as YAML files, one file per topic. Each question has `topic`, `difficulty`, `format`, `question`, `options` (for single/multi), `answer`, and `explanation` fields. Filter by the requested criteria, then randomly sample the requested number, ensuring balanced coverage of the three required formats when no specific format is requested.
 
@@ -118,7 +124,10 @@ Topics and their files:
 | Agile Testing | `questions/agile_testing.yml` | 4 |
 | Agile QA | `questions/agile_qa.yml` | 5 |
 | Manual Testing | `questions/manual_testing.yml` | 3 |
-| Automation Testing | `questions/automation_testing.yml` | 3 |
+| Automation Testing | `questions/automation_testing.yml` | 5 |
+| Playwright | `questions/playwright.yml` | 5 |
+| Cucumber IO | `questions/cucumber_io.yml` | 6 |
+| Dynamic Elements | `questions/dynamic_elements.yml` | 6 |
 | Security Testing | `questions/security_testing.yml` | 5 |
 | Performance Testing | `questions/performance_testing.yml` | 5 |
 | API Testing | `questions/api_testing.yml` | 5 |
@@ -126,6 +135,7 @@ Topics and their files:
 | Software Quality | `questions/software_quality.yml` | 5 |
 | Software Development Processes | `questions/software_development_processes.yml` | 5 |
 | Emerging Technologies | `questions/emerging_technologies.yml` | 5 |
+| Ocean Shipping | `questions/ocean_shipping.yml` | 8 |
 
 ### Question format
 ```yaml

@@ -1,0 +1,143 @@
+QUALITY QUIZ: All Topics (20 questions)
+Generated: 2026-07-06
+
+1. What does CI stand for in CI/CD? (single_choice, easy)
+   A) Code Integration
+   B) Continuous Integration
+   C) Container Instance
+   D) Cloud Infrastructure
+   Answer: Continuous Integration
+   Explanation: Continuous Integration is the practice of frequently merging code changes into a shared branch with automated builds and tests.
+
+2. Continuous Deployment means every change that passes automated tests is released to production automatically. (true_false, easy)
+   Answer: True
+   Explanation: Continuous Deployment goes a step beyond Continuous Delivery by automatically promoting every green build.
+
+3. Which of the following are common performance bottlenecks in web applications? (Select all that apply) (multi_select, hard)
+   A) Unindexed database queries
+   B) Excessive synchronous I/O
+   C) Connection pool exhaustion
+   D) Efficient caching
+   E) Large payload sizes
+   Answer: Unindexed database queries, Excessive synchronous I/O, Connection pool exhaustion, Large payload sizes
+   Explanation: Slow queries, blocking I/O, exhausted pools, and bloated payloads all degrade performance. Efficient caching is a solution, not a bottleneck.
+
+4. Which HTTP response header helps mitigate cross-site scripting (XSS) attacks? (single_choice, medium)
+   A) Content-Type
+   B) Content-Security-Policy
+   C) Set-Cookie
+   D) Cache-Control
+   Answer: Content-Security-Policy
+   Explanation: Content-Security-Policy (CSP) restricts which sources of content a browser is allowed to load, mitigating XSS.
+
+5. Generative AI can be used to create synthetic test data. (true_false, easy)
+   Answer: True
+   Explanation: Generative AI models can produce realistic synthetic data for testing without exposing real user data.
+
+6. Which of the following are valid Gherkin keywords used in a Cucumber scenario? (Select all that apply) (multi_select, medium)
+   A) Given
+   B) When
+   C) Then
+   D) If/Else
+   E) And
+   F) But
+   Answer: Given, When, Then, And, But
+   Explanation: Gherkin scenarios use Given (preconditions), When (actions), Then (expected outcomes), plus And/But for chaining steps. If/Else is not a Gherkin keyword.
+
+7. In the Waterfall model, each phase must be completed before the next begins. (true_false, easy)
+   Answer: True
+   Explanation: Waterfall follows a sequential, phase-gate approach where phases do not overlap.
+
+8. Which tool is commonly used for UI automation in web applications? (single_choice, easy)
+   A) Selenium
+   B) Docker
+   C) Git
+   D) Jenkins
+   Answer: Selenium
+   Explanation: Selenium drives browsers to automate UI interactions.
+
+9. In agile, test automation should be introduced only at the end of the sprint. (true_false, medium)
+   Answer: False
+   Explanation: Automation is built incrementally throughout the sprint.
+
+10. Which of the following are core phases of the SDLC? (Select all that apply) (multi_select, medium)
+   A) Requirements
+   B) Design
+   C) Implementation
+   D) Testing
+   E) Deployment
+   F) Marketing only
+   Answer: Requirements, Design, Implementation, Testing, Deployment
+   Explanation: The standard SDLC phases are Requirements, Design, Implementation, Testing, Deployment (and Maintenance). Marketing is not an SDLC phase.
+
+11. Which of the following ceremonies typically involve QA participation in Scrum? (Select all that apply) (multi_select, hard)
+   A) Sprint Planning
+   B) Daily Standup
+   C) Sprint Review
+   D) Sprint Retrospective
+   E) Backlog Refinement
+   F) Quarterly board meeting
+   Answer: Sprint Planning, Daily Standup, Sprint Review, Sprint Retrospective, Backlog Refinement
+   Explanation: QAs participate in all core Scrum ceremonies to provide continuous quality feedback. Quarterly board meetings are not a Scrum ceremony.
+
+12. Playwright supports running tests in parallel across multiple browser contexts by default. (true_false, easy)
+   Answer: True
+   Explanation: Playwright's test runner parallelizes tests by default and uses isolated browser contexts to give each test a clean session.
+
+13. Which of the following are emerging trends in software testing? (Select all that apply) (multi_select, medium)
+   A) AI-assisted test generation
+   B) Self-healing test automation
+   C) Quantum computing
+   D) Manual-only testing
+   E) Predictive test analytics
+   Answer: AI-assisted test generation, Self-healing test automation, Predictive test analytics
+   Explanation: AI-assisted generation, self-healing scripts, and predictive analytics are emerging trends. Quantum computing and manual-only testing are not testing trends.
+
+14. What is a 'dynamic element' on a website? (single_choice, easy)
+   A) An element with hard-coded text in HTML
+   B) An element whose attributes (id, class, position) change between page loads or sessions
+   C) A static image that never changes
+   D) An element only available in CSS files
+   Answer: An element whose attributes (id, class, position) change between page loads or sessions
+   Explanation: Dynamic elements are DOM elements whose locators (often id/class) are regenerated by JavaScript frameworks, making static selectors unreliable.
+
+15. Code reviews are considered a quality assurance activity. (true_false, easy)
+   Answer: True
+   Explanation: Code reviews help catch defects early and improve code quality before deployment.
+
+16. Manual testing can be fully automated with scripts. (true_false, medium)
+   Answer: False
+   Explanation: Certain exploratory and usability aspects require human testers.
+
+17. Which of the following are types of performance testing? (Select all that apply) (multi_select, medium)
+   A) Load testing
+   B) Stress testing
+   C) Soak testing
+   D) Spike testing
+   E) Smoke testing only
+   Answer: Load testing, Stress testing, Soak testing, Spike testing
+   Explanation: Load, stress, soak, and spike tests all measure system behavior under different load patterns. Smoke testing is a functional check, not a performance category.
+
+18. Which HTTP status code indicates a successful response? (single_choice, easy)
+   A) 200
+   B) 301
+   C) 404
+   D) 500
+   Answer: 200
+   Explanation: HTTP 200 OK means the request was successful.
+
+19. What does the Incoterm 'CIF' (Cost, Insurance, and Freight) require the seller to do? (single_choice, medium)
+   A) Deliver goods to the buyer's warehouse
+   B) Pay for cost, insurance, and freight to bring goods to the named port of destination — with risk transferring once goods are loaded on the vessel at origin
+   C) Pay only for inland transport
+   D) Cover all costs up to final delivery to the buyer's door
+   Answer: Pay for cost, insurance, and freight to bring goods to the named port of destination — with risk transferring once goods are loaded on the vessel at origin
+   Explanation: Under CIF, the seller pays freight and insurance to the destination port, but risk transfers to the buyer at origin port loading. It is a 'shipment' contract, not a 'destination' contract like DAP.
+
+20. What is a step definition in Cucumber? (single_choice, medium)
+   A) A test data file in JSON format
+   B) The code that maps a Gherkin step to its execution logic
+   C) A configuration file for the test runner
+   D) A reporting template
+   Answer: The code that maps a Gherkin step to its execution logic
+   Explanation: Step definitions are the programming-language bindings (Java, Ruby, JS, etc.) that translate each Gherkin line into executable code.

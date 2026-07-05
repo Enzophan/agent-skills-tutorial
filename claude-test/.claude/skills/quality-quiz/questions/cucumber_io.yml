@@ -1,0 +1,51 @@
+- id: 1
+  topic: Cucumber IO
+  difficulty: easy
+  format: single_choice
+  question: "What is the primary purpose of Cucumber?"
+  options: ["Compiling Java code", "Running automated tests written in plain-language BDD scenarios", "Managing project dependencies", "Deploying applications to production"]
+  answer: "Running automated tests written in plain-language BDD scenarios"
+  explanation: "Cucumber is a tool that supports Behavior-Driven Development (BDD) by executing plain-text scenarios (Gherkin) that map to automated test code (step definitions)."
+
+- id: 2
+  topic: Cucumber IO
+  difficulty: easy
+  format: true_false
+  question: "Gherkin is the plain-text language used to write Cucumber feature files."
+  answer: true
+  explanation: "Gherkin uses Given/When/Then keywords in a human-readable format that both technical and non-technical stakeholders can understand."
+
+- id: 3
+  topic: Cucumber IO
+  difficulty: medium
+  format: multi_select
+  question: "Which of the following are valid Gherkin keywords used in a Cucumber scenario? (Select all that apply)"
+  options: ["Given", "When", "Then", "If/Else", "And", "But"]
+  answer: ["Given", "When", "Then", "And", "But"]
+  explanation: "Gherkin scenarios use Given (preconditions), When (actions), Then (expected outcomes), plus And/But for chaining steps. If/Else is not a Gherkin keyword."
+
+- id: 4
+  topic: Cucumber IO
+  difficulty: medium
+  format: single_choice
+  question: "What is a step definition in Cucumber?"
+  options: ["A test data file in JSON format", "The code that maps a Gherkin step to its execution logic", "A configuration file for the test runner", "A reporting template"]
+  answer: "The code that maps a Gherkin step to its execution logic"
+  explanation: "Step definitions are the programming-language bindings (Java, Ruby, JS, etc.) that translate each Gherkin line into executable code."
+
+- id: 5
+  topic: Cucumber IO
+  difficulty: hard
+  format: multi_select
+  question: "Which of the following are best practices for writing maintainable Cucumber scenarios? (Select all that apply)"
+  options: ["Use the Background section for shared preconditions across scenarios in a feature", "Write UI-level details (clicks, CSS selectors) directly into Gherkin steps", "Keep scenarios focused on behavior rather than implementation", "Reuse steps via composition instead of duplicating Gherkin lines", "Use Scenario Outlines with Examples to data-drive similar scenarios"]
+  answer: ["Use the Background section for shared preconditions across scenarios in a feature", "Keep scenarios focused on behavior rather than implementation", "Reuse steps via composition instead of duplicating Gherkin lines", "Use Scenario Outlines with Examples to data-drive similar scenarios"]
+  explanation: "Backgrounds, behavior-focused wording, step reuse, and Scenario Outlines are maintainable patterns. Embedding CSS selectors in Gherkin couples scenarios to UI implementation and harms readability."
+
+- id: 6
+  topic: Cucumber IO
+  difficulty: medium
+  format: true_false
+  question: "Cucumber is officially supported only for the Java programming language."
+  answer: false
+  explanation: "Cucumber has official and community implementations in many languages including Java, JavaScript, Ruby, Python, .NET, Kotlin, and others."

@@ -1,0 +1,43 @@
+- id: 1
+  topic: Playwright
+  difficulty: easy
+  format: single_choice
+  question: "What is Playwright primarily used for?"
+  options: ["Building REST APIs","End-to-end browser automation and testing","Database administration","Static site generation"]
+  answer: "End-to-end browser automation and testing"
+  explanation: "Playwright is an open-source framework from Microsoft for reliable end-to-end testing of modern web applications across Chromium, Firefox, and WebKit."
+
+- id: 2
+  topic: Playwright
+  difficulty: medium
+  format: multi_select
+  question: "Which of the following are key features of Playwright? (Select all that apply)"
+  options: ["Auto-waiting for elements to be actionable","Cross-browser support (Chromium, Firefox, WebKit)","Native mobile emulators via WebKit","Native support for testing desktop Java Swing apps","Built-in trace viewer and codegen"]
+  answer: ["Auto-waiting for elements to be actionable", "Cross-browser support (Chromium, Firefox, WebKit)", "Native mobile emulators via WebKit", "Built-in trace viewer and codegen"]
+  explanation: "Playwright auto-waits, runs on all three major engines, ships mobile emulation through WebKit, and includes trace viewer plus codegen. It does not test Java Swing apps."
+
+- id: 3
+  topic: Playwright
+  difficulty: easy
+  format: true_false
+  question: "Playwright supports running tests in parallel across multiple browser contexts by default."
+  answer: true
+  explanation: "Playwright's test runner parallelizes tests by default and uses isolated browser contexts to give each test a clean session."
+
+- id: 4
+  topic: Playwright
+  difficulty: medium
+  format: single_choice
+  question: "Which Playwright locator strategy is recommended as the most resilient to UI changes?"
+  options: ["Raw XPath using absolute paths","Locators based on user-facing attributes (role, label, test-id)","Index-based CSS selectors","Position-based locators such as nth-child(5)"]
+  answer: "Locators based on user-facing attributes (role, label, test-id)"
+  explanation: "Playwright recommends user-facing locators such as getByRole, getByLabel, and getByTestId because they survive styling and DOM restructuring."
+
+- id: 5
+  topic: Playwright
+  difficulty: hard
+  format: multi_select
+  question: "Which of the following are valid ways to handle auto-waiting and synchronization in Playwright? (Select all that apply)"
+  options: ["Relying on Playwright's built-in actionability checks before actions","Using page.waitForResponse() to wait on a specific network call","Using page.waitForFunction() for custom DOM conditions","Adding arbitrary time.sleep() calls between actions","Using expect(locator).toHaveText() assertions that auto-retry"]
+  answer: ["Relying on Playwright's built-in actionability checks before actions", "Using page.waitForResponse() to wait on a specific network call", "Using page.waitForFunction() for custom DOM conditions", "Using expect(locator).toHaveText() assertions that auto-retry"]
+  explanation: "Playwright auto-waits, and web-first assertions retry until the condition matches. Arbitrary sleeps are an anti-pattern that cause flaky tests."

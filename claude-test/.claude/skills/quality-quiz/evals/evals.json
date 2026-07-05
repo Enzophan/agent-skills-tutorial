@@ -60,6 +60,26 @@
       "id": 12,
       "prompt": "Generate a quiz on Agile QA, mixed difficulty, with explanations.",
       "expected_output": "5 mixed-format questions on Agile QA, with explanations, saved as a text file."
+    },
+    {
+      "id": 13,
+      "prompt": "Quiz me on Playwright with 5 mixed-format questions.",
+      "expected_output": "5 mixed-format (single_choice, multi_select, true_false) questions on Playwright, saved as a text file."
+    },
+    {
+      "id": 14,
+      "prompt": "I want a 6-question quiz on Cucumber BDD with explanations.",
+      "expected_output": "6 questions on Cucumber IO (BDD/Gherkin), distributed across the three required formats, with explanations, saved as a text file."
+    },
+    {
+      "id": 15,
+      "prompt": "How do I find dynamic elements on a website? Quiz me — 5 mixed-format questions.",
+      "expected_output": "5 mixed-format questions on the Dynamic Elements topic (locator strategies, auto-waiting, shadow DOM), saved as a text file."
+    },
+    {
+      "id": 16,
+      "prompt": "I'm new to ocean shipping — give me a quiz on the basics.",
+      "expected_output": "5-8 mixed-format questions on Ocean Shipping (Bill of Lading, TEU, Incoterms, parties, delays), saved as a text file."
     }
   ]
 }
