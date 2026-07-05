@@ -1,11 +1,12 @@
 - id: 1
   topic: Manual Testing
   difficulty: easy
-  format: multiple_choice
+  format: single_choice
   question: "What is the main advantage of manual testing?"
   options: ["Speed","Automation","Human intuition","Low cost"]
   answer: "Human intuition"
   explanation: "Manual testing allows exploratory testing and nuanced human judgment."
+
 - id: 2
   topic: Manual Testing
   difficulty: medium
@@ -13,10 +14,28 @@
   question: "Manual testing can be fully automated with scripts."
   answer: false
   explanation: "Certain exploratory and usability aspects require human testers."
+
 - id: 3
   topic: Manual Testing
   difficulty: hard
   format: short_answer
-  question: "Describe a risk‑based approach to manual test case selection."
-  answer: "Prioritize test cases that cover high‑impact or high‑probability failure areas, reducing effort while maximizing risk coverage."
-  explanation: "Risk‑based testing focuses resources where defects would be most costly."
+  question: "Describe a risk-based approach to manual test case selection."
+  answer: "Prioritize test cases that cover high-impact or high-probability failure areas, reducing effort while maximizing risk coverage."
+  explanation: "Risk-based testing focuses resources where defects would be most costly."
+
+- id: 4
+  topic: Manual Testing
+  difficulty: easy
+  format: multi_select
+  question: "Which of the following are valid techniques in manual testing? (Select all that apply)"
+  options: ["Exploratory testing","Ad-hoc testing","Boundary value analysis","Mutation testing only","Usability testing"]
+  answer: ["Exploratory testing", "Ad-hoc testing", "Boundary value analysis", "Usability testing"]
+  explanation: "Exploratory, ad-hoc, BVA, and usability testing are common manual techniques. Mutation testing is automated."
+
+- id: 5
+  topic: Manual Testing
+  difficulty: medium
+  format: true_false
+  question: "Exploratory testing is a scripted test approach with pre-defined steps."
+  answer: false
+  explanation: "Exploratory testing is unscripted and relies on tester creativity and learning in the moment."

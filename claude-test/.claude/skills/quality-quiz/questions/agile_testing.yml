@@ -1,11 +1,12 @@
 - id: 1
   topic: Agile Testing
   difficulty: easy
-  format: multiple_choice
+  format: single_choice
   question: "What is the primary goal of agile testing?"
   options: ["Find bugs early","Validate requirements","Ensure continuous feedback","All of the above"]
   answer: "All of the above"
   explanation: "Agile testing aims for early defect detection and continuous feedback throughout development."
+
 - id: 2
   topic: Agile Testing
   difficulty: medium
@@ -13,15 +14,34 @@
   question: "In agile, test automation should be introduced only at the end of the sprint."
   answer: false
   explanation: "Automation is built incrementally throughout the sprint."
+
 - id: 3
   topic: Agile Testing
   difficulty: easy
-  format: multiple_choice
+  format: single_choice
   question: "Which of the following is NOT a characteristic of manual testing?"
   options: ["Exploratory","Requires no code","Fast execution","Human judgment"]
   answer: "Fast execution"
   explanation: "Manual testing relies on human judgment and is typically slower than automated tests."
+
 - id: 4
+  topic: Agile Testing
+  difficulty: medium
+  format: multi_select
+  question: "Which of the following are characteristics of agile testing? (Select all that apply)"
+  options: ["Iterative","Heavy documentation","Continuous feedback","Late testing","Cross-functional teams"]
+  answer: ["Iterative", "Continuous feedback", "Cross-functional teams"]
+  explanation: "Agile testing is iterative, emphasizes continuous feedback, and involves cross-functional teams — not heavy documentation or late testing."
+
+- id: 5
+  topic: Agile Testing
+  difficulty: hard
+  format: true_false
+  question: "In agile, the entire team shares responsibility for quality."
+  answer: true
+  explanation: "Whole-team quality ownership is a foundational agile principle."
+
+- id: 6
   topic: Agile Testing
   difficulty: medium
   format: short_answer

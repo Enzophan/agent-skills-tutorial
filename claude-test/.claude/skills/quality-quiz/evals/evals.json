@@ -3,33 +3,63 @@
   "evals": [
     {
       "id": 1,
-      "prompt": "Give me a 5‑question multiple‑choice quiz on Agile Testing with explanations.",
-      "expected_output": "Markdown list of 5 multiple-choice questions about Agile Testing, each with answer and explanation"
+      "prompt": "Give me a 5-question mixed-format quiz on Agile Testing with explanations.",
+      "expected_output": "A text file saved to the default output directory with 5 questions mixing single_choice, multi_select, and true_false formats. Each question includes answer and explanation."
     },
     {
       "id": 2,
       "prompt": "Create a short true/false quiz (3 questions) on Manual Testing.",
-      "expected_output": "Markdown list of 3 true/false questions about Manual Testing"
+      "expected_output": "3 true_false questions about Manual Testing, saved as a text file."
     },
     {
       "id": 3,
-      "prompt": "I need a JSON‑formatted quiz on Automation Testing, 4 questions, easy level.",
-      "expected_output": "JSON object with topic Automation Testing and up to 4 easy questions"
+      "prompt": "I need a JSON-formatted quiz on Automation Testing, 4 questions, easy level.",
+      "expected_output": "JSON object with up to 4 easy questions on Automation Testing."
     },
     {
       "id": 4,
       "prompt": "Quiz me on software development processes, hard difficulty, 2 short answer questions.",
-      "expected_output": "2 hard short-answer questions about Software Development Processes"
+      "expected_output": "2 hard short-answer questions about Software Development Processes."
     },
     {
       "id": 5,
       "prompt": "Test my knowledge of software quality with a mixed difficulty quiz.",
-      "expected_output": "5-question quiz on Software Quality (default: multiple-choice, mixed difficulty)"
+      "expected_output": "5-question quiz on Software Quality (default: mixed formats: single_choice, multi_select, true_false)."
     },
     {
       "id": 6,
       "prompt": "I'm preparing for a QA interview, give me some practice questions.",
-      "expected_output": "A quiz on software quality or testing topics, 5 questions default"
+      "expected_output": "A quiz covering software quality or testing topics (likely Agile QA + related), 5 questions default, mixed formats."
+    },
+    {
+      "id": 7,
+      "prompt": "Generate 6 questions on Security Testing with all three format types.",
+      "expected_output": "6 questions on Security Testing, distributed across single_choice, multi_select, and true_false; saved as a text file."
+    },
+    {
+      "id": 8,
+      "prompt": "Give me a Performance Testing quiz — 5 mixed-format questions.",
+      "expected_output": "5 mixed-format (single_choice, multi_select, true_false) questions on Performance Testing, saved as a text file."
+    },
+    {
+      "id": 9,
+      "prompt": "Quiz me on API Testing basics.",
+      "expected_output": "5 questions on API Testing with mixed formats, saved as a text file in the default output directory."
+    },
+    {
+      "id": 10,
+      "prompt": "I want to learn about DevOps & CI/CD — give me a quiz.",
+      "expected_output": "5 mixed-format questions on DevOps & CI/CD, saved as a text file."
+    },
+    {
+      "id": 11,
+      "prompt": "Create a multi-select only quiz on Emerging Technologies, 4 questions.",
+      "expected_output": "4 multi_select questions on Emerging Technologies, saved as a text file."
+    },
+    {
+      "id": 12,
+      "prompt": "Generate a quiz on Agile QA, mixed difficulty, with explanations.",
+      "expected_output": "5 mixed-format questions on Agile QA, with explanations, saved as a text file."
     }
   ]
 }

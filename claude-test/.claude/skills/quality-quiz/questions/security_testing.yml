@@ -1,0 +1,43 @@
+- id: 1
+  topic: Security Testing
+  difficulty: easy
+  format: single_choice
+  question: "What is SQL injection?"
+  options: ["A performance optimization technique","An attack that inserts malicious SQL into queries via unsanitized input","A database backup method","A type of unit test"]
+  answer: "An attack that inserts malicious SQL into queries via unsanitized input"
+  explanation: "SQL injection exploits unvalidated input to manipulate database queries and access or destroy data."
+
+- id: 2
+  topic: Security Testing
+  difficulty: medium
+  format: multi_select
+  question: "Which of the following are common categories of security testing? (Select all that apply)"
+  options: ["Vulnerability scanning","Penetration testing","Security regression testing","Unit testing only","Threat modeling"]
+  answer: ["Vulnerability scanning", "Penetration testing", "Security regression testing", "Threat modeling"]
+  explanation: "Security testing covers scanning, pen testing, regression of security fixes, and threat modeling. Unit testing alone is not a security category."
+
+- id: 3
+  topic: Security Testing
+  difficulty: easy
+  format: true_false
+  question: "OWASP Top 10 is a standard awareness document listing the most critical web application security risks."
+  answer: true
+  explanation: "The OWASP Top 10 is widely referenced to prioritize web application security risks."
+
+- id: 4
+  topic: Security Testing
+  difficulty: medium
+  format: single_choice
+  question: "Which HTTP response header helps mitigate cross-site scripting (XSS) attacks?"
+  options: ["Content-Type","Content-Security-Policy","Set-Cookie","Cache-Control"]
+  answer: "Content-Security-Policy"
+  explanation: "Content-Security-Policy (CSP) restricts which sources of content a browser is allowed to load, mitigating XSS."
+
+- id: 5
+  topic: Security Testing
+  difficulty: hard
+  format: multi_select
+  question: "Which of the following are best practices for secure software development? (Select all that apply)"
+  options: ["Input validation","Storing passwords in plain text","Principle of least privilege","Regular dependency scanning","Disabling logging entirely"]
+  answer: ["Input validation", "Principle of least privilege", "Regular dependency scanning"]
+  explanation: "Validate input, follow least privilege, and scan dependencies. Plain-text passwords and disabled logging are anti-patterns."

@@ -1,0 +1,43 @@
+- id: 1
+  topic: API Testing
+  difficulty: easy
+  format: single_choice
+  question: "Which HTTP status code indicates a successful response?"
+  options: ["200","301","404","500"]
+  answer: "200"
+  explanation: "HTTP 200 OK means the request was successful."
+
+- id: 2
+  topic: API Testing
+  difficulty: medium
+  format: multi_select
+  question: "Which of the following are common types of API testing? (Select all that apply)"
+  options: ["Functional testing","Contract testing","Performance testing","Security testing","Database schema testing only"]
+  answer: ["Functional testing", "Contract testing", "Performance testing", "Security testing"]
+  explanation: "API testing covers functional behavior, contract conformance, performance, and security. Schema testing alone is too narrow to be a category."
+
+- id: 3
+  topic: API Testing
+  difficulty: easy
+  format: true_false
+  question: "REST APIs typically use JSON or XML as their data exchange format."
+  answer: true
+  explanation: "JSON is the most common; XML is also used in many REST and SOAP APIs."
+
+- id: 4
+  topic: API Testing
+  difficulty: medium
+  format: single_choice
+  question: "What is contract testing in the context of APIs?"
+  options: ["A legal agreement between vendors","A test that verifies an API conforms to its documented specification (e.g., OpenAPI)","A load test","A unit test for a single endpoint"]
+  answer: "A test that verifies an API conforms to its documented specification (e.g., OpenAPI)"
+  explanation: "Contract tests catch breaking changes by validating that request/response shapes match the agreed specification."
+
+- id: 5
+  topic: API Testing
+  difficulty: hard
+  format: multi_select
+  question: "Which of the following are best practices for API testing? (Select all that apply)"
+  options: ["Test edge cases and error responses","Use realistic test data","Ignore authentication in tests","Validate response schemas","Test idempotency for non-GET endpoints"]
+  answer: ["Test edge cases and error responses", "Use realistic test data", "Validate response schemas", "Test idempotency for non-GET endpoints"]
+  explanation: "Edge cases, realistic data, schema validation, and idempotency checks are core API testing practices. Ignoring authentication weakens security coverage."

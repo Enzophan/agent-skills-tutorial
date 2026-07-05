@@ -1,11 +1,12 @@
 - id: 1
   topic: Automation Testing
   difficulty: easy
-  format: multiple_choice
+  format: single_choice
   question: "Which tool is commonly used for UI automation in web applications?"
   options: ["Selenium","Docker","Git","Jenkins"]
   answer: "Selenium"
   explanation: "Selenium drives browsers to automate UI interactions."
+
 - id: 2
   topic: Automation Testing
   difficulty: medium
@@ -13,6 +14,7 @@
   question: "Automated tests require no maintenance once written."
   answer: false
   explanation: "Test scripts need updates as the application evolves."
+
 - id: 3
   topic: Automation Testing
   difficulty: hard
@@ -20,3 +22,20 @@
   question: "Explain the concept of flaky tests and how to mitigate them."
   answer: "Flaky tests produce intermittent failures due to timing, environment, or dependencies; mitigation includes isolating resources, adding retries, or stabilizing test data."
   explanation: "Flakiness reduces confidence; proper design and environment control help."
+
+- id: 4
+  topic: Automation Testing
+  difficulty: easy
+  format: multi_select
+  question: "Which of the following are common test automation frameworks? (Select all that apply)"
+  options: ["Selenium","Cypress","Playwright","Photoshop","JUnit"]
+  answer: ["Selenium", "Cypress", "Playwright", "JUnit"]
+  explanation: "Selenium, Cypress, Playwright, and JUnit are widely used test automation frameworks. Photoshop is a design tool."
+
+- id: 5
+  topic: Automation Testing
+  difficulty: medium
+  format: true_false
+  question: "The Page Object Model is a design pattern used to reduce duplication in test code."
+  answer: true
+  explanation: "POM encapsulates page interactions in reusable classes, reducing duplication and improving maintainability."

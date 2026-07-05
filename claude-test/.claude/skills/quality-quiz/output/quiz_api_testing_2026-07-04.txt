@@ -1,0 +1,40 @@
+QUALITY QUIZ: API Testing (5 questions)
+Generated: 2026-07-04
+
+1. REST APIs typically use JSON or XML as their data exchange format. (true_false)
+   Answer: True
+   Explanation: JSON is the most common; XML is also used in many REST and SOAP APIs.
+
+2. Which of the following are common types of API testing? (Select all that apply) (multi_select)
+   A) Functional testing
+   B) Contract testing
+   C) Performance testing
+   D) Security testing
+   E) Database schema testing only
+   Answer: Functional testing, Contract testing, Performance testing, Security testing
+   Explanation: API testing covers functional behavior, contract conformance, performance, and security. Schema testing alone is too narrow to be a category.
+
+3. What is contract testing in the context of APIs? (single_choice)
+   A) A legal agreement between vendors
+   B) A test that verifies an API conforms to its documented specification (e.g., OpenAPI)
+   C) A load test
+   D) A unit test for a single endpoint
+   Answer: A test that verifies an API conforms to its documented specification (e.g., OpenAPI)
+   Explanation: Contract tests catch breaking changes by validating that request/response shapes match the agreed specification.
+
+4. Which HTTP status code indicates a successful response? (single_choice)
+   A) 200
+   B) 301
+   C) 404
+   D) 500
+   Answer: 200
+   Explanation: HTTP 200 OK means the request was successful.
+
+5. Which of the following are best practices for API testing? (Select all that apply) (multi_select)
+   A) Test edge cases and error responses
+   B) Use realistic test data
+   C) Ignore authentication in tests
+   D) Validate response schemas
+   E) Test idempotency for non-GET endpoints
+   Answer: Test edge cases and error responses, Use realistic test data, Validate response schemas, Test idempotency for non-GET endpoints
+   Explanation: Edge cases, realistic data, schema validation, and idempotency checks are core API testing practices. Ignoring authentication weakens security coverage.

@@ -1,0 +1,40 @@
+QUALITY QUIZ: Security Testing (5 questions)
+Generated: 2026-07-04
+
+1. Which HTTP response header helps mitigate cross-site scripting (XSS) attacks? (single_choice)
+   A) Content-Type
+   B) Content-Security-Policy
+   C) Set-Cookie
+   D) Cache-Control
+   Answer: Content-Security-Policy
+   Explanation: Content-Security-Policy (CSP) restricts which sources of content a browser is allowed to load, mitigating XSS.
+
+2. OWASP Top 10 is a standard awareness document listing the most critical web application security risks. (true_false)
+   Answer: True
+   Explanation: The OWASP Top 10 is widely referenced to prioritize web application security risks.
+
+3. Which of the following are best practices for secure software development? (Select all that apply) (multi_select)
+   A) Input validation
+   B) Storing passwords in plain text
+   C) Principle of least privilege
+   D) Regular dependency scanning
+   E) Disabling logging entirely
+   Answer: Input validation, Principle of least privilege, Regular dependency scanning
+   Explanation: Validate input, follow least privilege, and scan dependencies. Plain-text passwords and disabled logging are anti-patterns.
+
+4. What is SQL injection? (single_choice)
+   A) A performance optimization technique
+   B) An attack that inserts malicious SQL into queries via unsanitized input
+   C) A database backup method
+   D) A type of unit test
+   Answer: An attack that inserts malicious SQL into queries via unsanitized input
+   Explanation: SQL injection exploits unvalidated input to manipulate database queries and access or destroy data.
+
+5. Which of the following are common categories of security testing? (Select all that apply) (multi_select)
+   A) Vulnerability scanning
+   B) Penetration testing
+   C) Security regression testing
+   D) Unit testing only
+   E) Threat modeling
+   Answer: Vulnerability scanning, Penetration testing, Security regression testing, Threat modeling
+   Explanation: Security testing covers scanning, pen testing, regression of security fixes, and threat modeling. Unit testing alone is not a security category.

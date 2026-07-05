@@ -1,11 +1,12 @@
 - id: 1
   topic: Software Development Processes
   difficulty: easy
-  format: multiple_choice
+  format: single_choice
   question: "Which methodology emphasizes iterative development and customer collaboration?"
   options: ["Waterfall","Agile","Spiral","V-Model"]
   answer: "Agile"
   explanation: "Agile emphasizes iterative cycles, customer feedback, and adaptability over rigid planning."
+
 - id: 2
   topic: Software Development Processes
   difficulty: easy
@@ -13,14 +14,16 @@
   question: "In the Waterfall model, each phase must be completed before the next begins."
   answer: true
   explanation: "Waterfall follows a sequential, phase-gate approach where phases do not overlap."
+
 - id: 3
   topic: Software Development Processes
   difficulty: medium
-  format: multiple_choice
+  format: single_choice
   question: "What is a sprint in Scrum?"
   options: ["A daily standup meeting","A time-boxed iteration of work","A retrospective event","A backlog refinement session"]
   answer: "A time-boxed iteration of work"
   explanation: "A sprint is a fixed-length iteration (typically 1-4 weeks) during which a potentially shippable increment is created."
+
 - id: 4
   topic: Software Development Processes
   difficulty: medium
@@ -28,11 +31,29 @@
   question: "What does SDLC stand for and what are its main phases?"
   answer: "Software Development Life Cycle; main phases are Requirements, Design, Implementation, Testing, Deployment, and Maintenance."
   explanation: "SDLC provides a structured framework for planning and managing software projects."
+
 - id: 5
   topic: Software Development Processes
   difficulty: hard
-  format: multiple_choice
+  format: single_choice
   question: "Which process model combines iterative development with risk analysis?"
   options: ["Waterfall","Agile","Spiral","V-Model"]
   answer: "Spiral"
   explanation: "The Spiral model combines prototyping and risk analysis in iterative cycles."
+
+- id: 6
+  topic: Software Development Processes
+  difficulty: medium
+  format: multi_select
+  question: "Which of the following are core phases of the SDLC? (Select all that apply)"
+  options: ["Requirements","Design","Implementation","Testing","Deployment","Marketing only"]
+  answer: ["Requirements", "Design", "Implementation", "Testing", "Deployment"]
+  explanation: "The standard SDLC phases are Requirements, Design, Implementation, Testing, Deployment (and Maintenance). Marketing is not an SDLC phase."
+
+- id: 7
+  topic: Software Development Processes
+  difficulty: easy
+  format: true_false
+  question: "DevOps is a culture that bridges development and operations to shorten the delivery cycle."
+  answer: true
+  explanation: "DevOps emphasizes collaboration, automation, and continuous delivery between dev and ops."

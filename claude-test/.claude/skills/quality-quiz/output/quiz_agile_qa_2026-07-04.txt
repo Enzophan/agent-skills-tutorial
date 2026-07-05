@@ -1,0 +1,42 @@
+QUALITY QUIZ: Agile QA (5 questions)
+Generated: 2026-07-04
+
+1. In agile, quality is the responsibility of the entire team, not just the QA. (true_false)
+   Answer: True
+   Explanation: Whole-team quality ownership is a core agile principle.
+
+2. What is the primary role of a QA in an agile team? (single_choice)
+   A) To find bugs at the end of the sprint
+   B) To enable the team to deliver quality software continuously
+   C) To write all test automation
+   D) To gate releases
+   Answer: To enable the team to deliver quality software continuously
+   Explanation: In agile, QA is a team-wide responsibility focused on continuous quality, not a final gate.
+
+3. Which of the following ceremonies typically involve QA participation in Scrum? (Select all that apply) (multi_select)
+   A) Sprint Planning
+   B) Daily Standup
+   C) Sprint Review
+   D) Sprint Retrospective
+   E) Backlog Refinement
+   F) Quarterly board meeting
+   Answer: Sprint Planning, Daily Standup, Sprint Review, Sprint Retrospective, Backlog Refinement
+   Explanation: QAs participate in all core Scrum ceremonies to provide continuous quality feedback. Quarterly board meetings are not a Scrum ceremony.
+
+4. What is the 'Definition of Done' (DoD) in agile? (single_choice)
+   A) A list of features completed in the sprint
+   B) A shared agreement on the criteria that must be met for any work item to be considered complete
+   C) A backlog of pending bugs
+   D) A test plan
+   Answer: A shared agreement on the criteria that must be met for any work item to be considered complete
+   Explanation: The DoD ensures every increment meets a consistent quality bar before being marked complete.
+
+5. Which of the following are common responsibilities of a QA in an agile team? (Select all that apply) (multi_select)
+   A) Writing test cases
+   B) Defining acceptance criteria
+   C) Attending daily standups
+   D) Production deployment only
+   E) Defect triage
+   F) Pairing with developers on testable code
+   Answer: Writing test cases, Defining acceptance criteria, Attending daily standups, Defect triage, Pairing with developers on testable code
+   Explanation: Agile QAs are embedded in the team and contribute broadly — writing tests, refining acceptance criteria, attending ceremonies, triaging defects, and collaborating on testable code.

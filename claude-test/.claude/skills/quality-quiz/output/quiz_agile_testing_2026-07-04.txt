@@ -1,0 +1,35 @@
+QUALITY QUIZ: Agile Testing (5 questions)
+Generated: 2026-07-04
+
+1. Which of the following are characteristics of agile testing? (Select all that apply) (multi_select)
+   A) Iterative
+   B) Heavy documentation
+   C) Continuous feedback
+   D) Late testing
+   E) Cross-functional teams
+   Answer: Iterative, Continuous feedback, Cross-functional teams
+   Explanation: Agile testing is iterative, emphasizes continuous feedback, and involves cross-functional teams — not heavy documentation or late testing.
+
+2. In agile, the entire team shares responsibility for quality. (true_false)
+   Answer: True
+   Explanation: Whole-team quality ownership is a foundational agile principle.
+
+3. Which of the following is NOT a characteristic of manual testing? (single_choice)
+   A) Exploratory
+   B) Requires no code
+   C) Fast execution
+   D) Human judgment
+   Answer: Fast execution
+   Explanation: Manual testing relies on human judgment and is typically slower than automated tests.
+
+4. In agile, test automation should be introduced only at the end of the sprint. (true_false)
+   Answer: False
+   Explanation: Automation is built incrementally throughout the sprint.
+
+5. What is the primary goal of agile testing? (single_choice)
+   A) Find bugs early
+   B) Validate requirements
+   C) Ensure continuous feedback
+   D) All of the above
+   Answer: All of the above
+   Explanation: Agile testing aims for early defect detection and continuous feedback throughout development.

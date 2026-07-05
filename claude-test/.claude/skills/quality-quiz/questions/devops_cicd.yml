@@ -1,0 +1,43 @@
+- id: 1
+  topic: DevOps & CI/CD
+  difficulty: easy
+  format: single_choice
+  question: "What does CI stand for in CI/CD?"
+  options: ["Code Integration","Continuous Integration","Container Instance","Cloud Infrastructure"]
+  answer: "Continuous Integration"
+  explanation: "Continuous Integration is the practice of frequently merging code changes into a shared branch with automated builds and tests."
+
+- id: 2
+  topic: DevOps & CI/CD
+  difficulty: medium
+  format: multi_select
+  question: "Which of the following are common CI/CD practices? (Select all that apply)"
+  options: ["Automated builds","Automated tests on every commit","Manual deployments to production","Trunk-based development","Long-lived feature branches only"]
+  answer: ["Automated builds", "Automated tests on every commit", "Trunk-based development"]
+  explanation: "Automation and short-lived branches are core CI/CD practices. Manual deployments and long-lived branches are anti-patterns in modern CI/CD."
+
+- id: 3
+  topic: DevOps & CI/CD
+  difficulty: easy
+  format: true_false
+  question: "Continuous Deployment means every change that passes automated tests is released to production automatically."
+  answer: true
+  explanation: "Continuous Deployment goes a step beyond Continuous Delivery by automatically promoting every green build."
+
+- id: 4
+  topic: DevOps & CI/CD
+  difficulty: medium
+  format: single_choice
+  question: "Which tool is most commonly used for orchestrating CI/CD pipelines?"
+  options: ["Photoshop","Jenkins / GitHub Actions / GitLab CI","MS Word","Notepad"]
+  answer: "Jenkins / GitHub Actions / GitLab CI"
+  explanation: "Jenkins, GitHub Actions, and GitLab CI are the most widely adopted CI/CD orchestrators."
+
+- id: 5
+  topic: DevOps & CI/CD
+  difficulty: hard
+  format: multi_select
+  question: "Which of the following are benefits of Infrastructure as Code (IaC)? (Select all that apply)"
+  options: ["Reproducible environments","Version-controlled infrastructure","Manual server setup","Faster provisioning","Easier disaster recovery"]
+  answer: ["Reproducible environments", "Version-controlled infrastructure", "Faster provisioning", "Easier disaster recovery"]
+  explanation: "IaC enables reproducible, version-controlled, quickly provisioned environments that are easy to recover. Manual setup is the opposite of IaC."

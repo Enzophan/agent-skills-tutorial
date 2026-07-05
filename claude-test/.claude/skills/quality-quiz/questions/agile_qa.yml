@@ -1,0 +1,43 @@
+- id: 1
+  topic: Agile QA
+  difficulty: easy
+  format: single_choice
+  question: "What is the primary role of a QA in an agile team?"
+  options: ["To find bugs at the end of the sprint","To enable the team to deliver quality software continuously","To write all test automation","To gate releases"]
+  answer: "To enable the team to deliver quality software continuously"
+  explanation: "In agile, QA is a team-wide responsibility focused on continuous quality, not a final gate."
+
+- id: 2
+  topic: Agile QA
+  difficulty: medium
+  format: multi_select
+  question: "Which of the following are common responsibilities of a QA in an agile team? (Select all that apply)"
+  options: ["Writing test cases","Defining acceptance criteria","Attending daily standups","Production deployment only","Defect triage","Pairing with developers on testable code"]
+  answer: ["Writing test cases", "Defining acceptance criteria", "Attending daily standups", "Defect triage", "Pairing with developers on testable code"]
+  explanation: "Agile QAs are embedded in the team and contribute broadly — writing tests, refining acceptance criteria, attending ceremonies, triaging defects, and collaborating on testable code."
+
+- id: 3
+  topic: Agile QA
+  difficulty: easy
+  format: true_false
+  question: "In agile, quality is the responsibility of the entire team, not just the QA."
+  answer: true
+  explanation: "Whole-team quality ownership is a core agile principle."
+
+- id: 4
+  topic: Agile QA
+  difficulty: medium
+  format: single_choice
+  question: "What is the 'Definition of Done' (DoD) in agile?"
+  options: ["A list of features completed in the sprint","A shared agreement on the criteria that must be met for any work item to be considered complete","A backlog of pending bugs","A test plan"]
+  answer: "A shared agreement on the criteria that must be met for any work item to be considered complete"
+  explanation: "The DoD ensures every increment meets a consistent quality bar before being marked complete."
+
+- id: 5
+  topic: Agile QA
+  difficulty: hard
+  format: multi_select
+  question: "Which of the following ceremonies typically involve QA participation in Scrum? (Select all that apply)"
+  options: ["Sprint Planning","Daily Standup","Sprint Review","Sprint Retrospective","Backlog Refinement","Quarterly board meeting"]
+  answer: ["Sprint Planning", "Daily Standup", "Sprint Review", "Sprint Retrospective", "Backlog Refinement"]
+  explanation: "QAs participate in all core Scrum ceremonies to provide continuous quality feedback. Quarterly board meetings are not a Scrum ceremony."

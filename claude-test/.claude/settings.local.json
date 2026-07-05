@@ -3,7 +3,10 @@
     "allow": [
       "WebSearch",
       "Bash(pip install *)",
-      "Bash(playwright install *)"
+      "Bash(playwright install *)",
+      "Bash(python scripts/render.py)",
+      "Bash(python3 scripts/render.py)",
+      "Bash(python3 *)"
     ]
   }
 }

@@ -1,0 +1,20 @@
+QUALITY QUIZ: Emerging Technologies (2 questions)
+Generated: 2026-07-04
+
+1. Which of the following are emerging trends in software testing? (Select all that apply) (multi_select)
+   A) AI-assisted test generation
+   B) Self-healing test automation
+   C) Quantum computing
+   D) Manual-only testing
+   E) Predictive test analytics
+   Answer: AI-assisted test generation, Self-healing test automation, Predictive test analytics
+   Explanation: AI-assisted generation, self-healing scripts, and predictive analytics are emerging trends. Quantum computing and manual-only testing are not testing trends.
+
+2. Which of the following are common risks when adopting AI in software testing? (Select all that apply) (multi_select)
+   A) Hallucinated or inaccurate outputs
+   B) Bias in training data
+   C) Reduced need for human review
+   D) Loss of test coverage visibility
+   E) Improved reproducibility
+   Answer: Hallucinated or inaccurate outputs, Bias in training data, Loss of test coverage visibility
+   Explanation: AI can hallucinate, reflect training-data bias, and obscure what is actually being tested. Reduced human review and improved reproducibility are typically benefits, not risks.

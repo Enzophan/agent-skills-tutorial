@@ -1,0 +1,43 @@
+- id: 1
+  topic: Emerging Technologies
+  difficulty: easy
+  format: single_choice
+  question: "What is a large language model (LLM) primarily used for?"
+  options: ["Compiling source code","Generating and understanding natural language","Database indexing","Network routing"]
+  answer: "Generating and understanding natural language"
+  explanation: "LLMs are deep-learning models trained on massive text corpora to generate, summarize, and reason about natural language."
+
+- id: 2
+  topic: Emerging Technologies
+  difficulty: medium
+  format: multi_select
+  question: "Which of the following are emerging trends in software testing? (Select all that apply)"
+  options: ["AI-assisted test generation","Self-healing test automation","Quantum computing","Manual-only testing","Predictive test analytics"]
+  answer: ["AI-assisted test generation", "Self-healing test automation", "Predictive test analytics"]
+  explanation: "AI-assisted generation, self-healing scripts, and predictive analytics are emerging trends. Quantum computing and manual-only testing are not testing trends."
+
+- id: 3
+  topic: Emerging Technologies
+  difficulty: easy
+  format: true_false
+  question: "Generative AI can be used to create synthetic test data."
+  answer: true
+  explanation: "Generative AI models can produce realistic synthetic data for testing without exposing real user data."
+
+- id: 4
+  topic: Emerging Technologies
+  difficulty: medium
+  format: single_choice
+  question: "What is MLOps?"
+  options: ["A machine learning model format","A set of practices to deploy and maintain ML models in production reliably","A database engine","A testing framework"]
+  answer: "A set of practices to deploy and maintain ML models in production reliably"
+  explanation: "MLOps combines ML, DevOps, and data engineering to operationalize machine learning at scale."
+
+- id: 5
+  topic: Emerging Technologies
+  difficulty: hard
+  format: multi_select
+  question: "Which of the following are common risks when adopting AI in software testing? (Select all that apply)"
+  options: ["Hallucinated or inaccurate outputs","Bias in training data","Reduced need for human review","Loss of test coverage visibility","Improved reproducibility"]
+  answer: ["Hallucinated or inaccurate outputs", "Bias in training data", "Loss of test coverage visibility"]
+  explanation: "AI can hallucinate, reflect training-data bias, and obscure what is actually being tested. Reduced human review and improved reproducibility are typically benefits, not risks."

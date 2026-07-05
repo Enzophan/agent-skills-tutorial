@@ -1,0 +1,43 @@
+- id: 1
+  topic: Performance Testing
+  difficulty: easy
+  format: single_choice
+  question: "What is the primary goal of load testing?"
+  options: ["To find security bugs","To measure system behavior under expected user load","To validate UI design","To replace unit tests"]
+  answer: "To measure system behavior under expected user load"
+  explanation: "Load testing simulates expected traffic to verify response times, throughput, and stability."
+
+- id: 2
+  topic: Performance Testing
+  difficulty: medium
+  format: multi_select
+  question: "Which of the following are types of performance testing? (Select all that apply)"
+  options: ["Load testing","Stress testing","Soak testing","Spike testing","Smoke testing only"]
+  answer: ["Load testing", "Stress testing", "Soak testing", "Spike testing"]
+  explanation: "Load, stress, soak, and spike tests all measure system behavior under different load patterns. Smoke testing is a functional check, not a performance category."
+
+- id: 3
+  topic: Performance Testing
+  difficulty: easy
+  format: true_false
+  question: "Stress testing verifies how a system behaves beyond normal load conditions."
+  answer: true
+  explanation: "Stress testing pushes the system past expected capacity to identify breaking points and recovery behavior."
+
+- id: 4
+  topic: Performance Testing
+  difficulty: medium
+  format: single_choice
+  question: "What does 'p95 latency' typically refer to?"
+  options: ["The 95th percentile response time — 95% of requests are faster","The 95% slowest requests","The average latency","The minimum latency"]
+  answer: "The 95th percentile response time — 95% of requests are faster"
+  explanation: "p95 is a common SLO metric that captures the experience of most users while ignoring extreme outliers."
+
+- id: 5
+  topic: Performance Testing
+  difficulty: hard
+  format: multi_select
+  question: "Which of the following are common performance bottlenecks in web applications? (Select all that apply)"
+  options: ["Unindexed database queries","Excessive synchronous I/O","Connection pool exhaustion","Efficient caching","Large payload sizes"]
+  answer: ["Unindexed database queries", "Excessive synchronous I/O", "Connection pool exhaustion", "Large payload sizes"]
+  explanation: "Slow queries, blocking I/O, exhausted pools, and bloated payloads all degrade performance. Efficient caching is a solution, not a bottleneck."
