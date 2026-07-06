@@ -1,6 +1,6 @@
 ---
-name: test-bdd
-skill-name: test-bdd
+name: generate-test-bdd
+skill-name: generate-test-bdd
 description: >
   Reads a plain-text requirements file (e.g. requirements.txt), converts the
   requirements into Gherkin-style `.feature` files, generates Cucumber/Playwright

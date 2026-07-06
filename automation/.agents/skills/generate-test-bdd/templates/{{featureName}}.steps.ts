@@ -1,6 +1,6 @@
 import { Given, When, Then } from '@cucumber/cucumber';
 import { expect } from '@playwright/test';
-import { ICustomWorld } from '../world';
+import { ICustomWorld } from '../../world';
 
 Given('{{GivenContext}}', async function (this: ICustomWorld) {
   // e.g., await this.page!.goto(process.env.BASE_URL!);
