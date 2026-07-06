@@ -1,0 +1,233 @@
+[
+  {
+    "description": "  As a user\n  I want to log in with valid credentials\n  So that the application behaves correctly",
+    "elements": [
+      {
+        "description": "",
+        "id": "log-in-with-valid-credentials;user-can-log-in-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "User can log in with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 184751624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user is on the relevant page",
+            "match": {
+              "location": "steps/user-can-log-in-with-valid-credentials.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1072772420
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user performs the action for \"User can log in with valid credentials\"",
+            "match": {
+              "location": "steps/user-can-log-in-with-valid-credentials.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 235547
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the expected outcome for \"User can log in with valid credentials\" is displayed",
+            "match": {
+              "location": "steps/user-can-log-in-with-valid-credentials.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 114503
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 109949927
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "log-in-with-valid-credentials",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "log in with valid credentials",
+    "tags": [],
+    "uri": "features/user-can-log-in-with-valid-credentials.feature"
+  },
+  {
+    "description": "  As a user\n  I want to reset their password via email\n  So that the application behaves correctly",
+    "elements": [
+      {
+        "description": "",
+        "id": "reset-their-password-via-email;user-can-reset-their-password-via-email",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "User can reset their password via email",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 521190951
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user is on the relevant page",
+            "match": {
+              "location": "steps/user-can-log-in-with-valid-credentials.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 863014694
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user performs the action for \"User can reset their password via email\"",
+            "match": {
+              "location": "steps/user-can-reset-their-password-via-email.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 127123
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the expected outcome for \"User can reset their password via email\" is displayed",
+            "match": {
+              "location": "steps/user-can-reset-their-password-via-email.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 109179
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 70752596
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "reset-their-password-via-email",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "reset their password via email",
+    "tags": [],
+    "uri": "features/user-can-reset-their-password-via-email.feature"
+  },
+  {
+    "description": "  As a user\n  I want to an error message with invalid credentials\n  So that the application behaves correctly",
+    "elements": [
+      {
+        "description": "",
+        "id": "an-error-message-with-invalid-credentials;user-sees-an-error-message-with-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "User sees an error message with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 164229731
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user is on the relevant page",
+            "match": {
+              "location": "steps/user-can-log-in-with-valid-credentials.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1155744987
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user performs the action for \"User sees an error message with invalid credentials\"",
+            "match": {
+              "location": "steps/user-sees-an-error-message-with-invalid-credentials.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 140014
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the expected outcome for \"User sees an error message with invalid credentials\" is displayed",
+            "match": {
+              "location": "steps/user-sees-an-error-message-with-invalid-credentials.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75167
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 59727953
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "an-error-message-with-invalid-credentials",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "an error message with invalid credentials",
+    "tags": [],
+    "uri": "features/user-sees-an-error-message-with-invalid-credentials.feature"
+  }
+]
