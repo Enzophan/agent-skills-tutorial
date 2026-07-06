@@ -5,7 +5,10 @@ module.exports = {
     require: ['ts-node/register', 'world.ts', 'steps/**/*.steps.ts', 'steps/*.steps.ts'],
     requireModule: ['ts-node/register'],
     paths: ['features/**/*.feature'],
-    format: ['progress', 'json:reports/cucumber-report.json'],
+    format: ['progress', 'json:reports/cucumber-report.json', "allure-cucumberjs/reporter"],
+    formatOptions: {
+      resultsDir: "allure-results",
+    },
     publishQuiet: true,
   },
 };

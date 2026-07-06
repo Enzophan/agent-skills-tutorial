@@ -1,0 +1,3 @@
+User can log in with valid credentials
+User sees an error message with invalid credentials
+User can reset their password via email
