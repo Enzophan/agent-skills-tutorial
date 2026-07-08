@@ -8,7 +8,7 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
-    "types": ["node", "@cucumber/cucumber", "@playwright/test"]
+    "skipDefaultLibCheck": true
   },
   "include": ["**/*.ts"],
   "exclude": ["node_modules"]

@@ -1,5 +1,5 @@
-import { IWorldOptions, setWorldConstructor, World } from '@cucumber/cucumber';
-import { Browser, BrowserContext, Page, chromium } from 'playwright';
+import { IWorldOptions, setWorldConstructor, World } from "@cucumber/cucumber";
+import { Browser, BrowserContext, Page, chromium } from "playwright";
 
 export interface ICustomWorld extends World {
   browser?: Browser;
@@ -17,7 +17,12 @@ class CustomWorld extends World implements ICustomWorld {
   }
 
   async init() {
-    this.browser = await chromium.launch({ headless: false });
+    const head = process.env.HEADLESS;
+    const browserType = process.env.BROWSER;
+
+    console.log(`Running tests with browser: ${browserType}, headless: ${head}`);
+
+    this.browser = await chromium.launch({ headless: head === "true" });
     this.context = await this.browser.newContext();
     this.page = await this.context.newPage();
   }
@@ -32,7 +37,7 @@ class CustomWorld extends World implements ICustomWorld {
 setWorldConstructor(CustomWorld);
 
 // Hooks
-import { Before, After } from '@cucumber/cucumber';
+import { Before, After } from "@cucumber/cucumber";
 
 Before(async function (this: CustomWorld) {
   await this.init();
